@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad91b702-2407-46a2-be1d-c7055a50b02d" name="Changes" comment="" />
+    <list default="true" id="ad91b702-2407-46a2-be1d-c7055a50b02d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/funcInterfaces/AnotherExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/funcInterfaces/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/funcInterfaces/ExampleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/ExampleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/constructorReference/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/constructorReference/ExampleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/multiArgConstructorReference/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/multiArgConstructorReference/HeroFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/typeInference/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/typeInference/ExampleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ApvFiO47ppQqmbUzOJeEOoWUe6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,9 +48,92 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/imtiyaazthompson/Github/work-projects/training/DevTraining"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="typeInference" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Hero">
+    <configuration name="ExampleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.funcInterfaces.ExampleImpl" />
+      <module name="DevTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.funcInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.methodInterfaces.multiArgConstructorReference.Hero" />
+      <module name="DevTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.methodInterfaces.multiArgConstructorReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambdas.methodInterfaces.ExampleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.methodInterfaces.ExampleImpl" />
+      <module name="DevTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.methodInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambdas.methodInterfaces.constructorReference.ExampleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.methodInterfaces.constructorReference.ExampleImpl" />
+      <module name="DevTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.methodInterfaces.constructorReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambdas.typeInference.ExampleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.typeInference.ExampleImpl" />
+      <module name="DevTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdas.typeInference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hero" />
+        <item itemvalue="Application.lambdas.methodInterfaces.constructorReference.ExampleImpl" />
+        <item itemvalue="Application.lambdas.methodInterfaces.ExampleImpl" />
+        <item itemvalue="Application.lambdas.typeInference.ExampleImpl" />
+        <item itemvalue="Application.lambdas.funcInterfaces.ExampleImpl" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,10 +143,22 @@
       <option name="presentableId" value="Default" />
       <updated>1655719238712</updated>
       <workItem from="1655719239876" duration="3000" />
+      <workItem from="1655719314702" duration="11098000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
