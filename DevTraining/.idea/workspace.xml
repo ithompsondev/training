@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad91b702-2407-46a2-be1d-c7055a50b02d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/funcInterfaces/AnotherExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/funcInterfaces/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/funcInterfaces/ExampleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/ExampleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/constructorReference/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/constructorReference/ExampleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/multiArgConstructorReference/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/methodInterfaces/multiArgConstructorReference/HeroFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/typeInference/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/typeInference/ExampleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/HeroLocatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/HeroLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/HeroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/HeroLocatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/HeroLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/HeroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/resources/application-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DevTraining.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +47,37 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/imtiyaazthompson/Github/work-projects/training/DevTraining"
+    "last_opened_file_path": "/Users/imtiyaazthompson/Github/work-projects/training/DevTraining/src/springprog/springIOC",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="springprog.manualDepInjection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/springprog/springIOC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/springprog/springIOC" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="springprog.manualDepInjection" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="typeInference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hero">
-    <configuration name="ExampleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.funcInterfaces.ExampleImpl" />
+  <component name="RunManager" selected="Application.HeroService">
+    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.methodInterfaces.multiArgConstructorReference.Hero" />
       <module name="DevTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambdas.funcInterfaces.*" />
+          <option name="PATTERN" value="lambdas.methodInterfaces.multiArgConstructorReference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.methodInterfaces.multiArgConstructorReference.Hero" />
+    <configuration name="HeroService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springprog.manualDepInjection.HeroService" />
       <module name="DevTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambdas.methodInterfaces.multiArgConstructorReference.*" />
+          <option name="PATTERN" value="springprog.manualDepInjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeroService" />
         <item itemvalue="Application.Hero" />
         <item itemvalue="Application.lambdas.methodInterfaces.constructorReference.ExampleImpl" />
         <item itemvalue="Application.lambdas.methodInterfaces.ExampleImpl" />
         <item itemvalue="Application.lambdas.typeInference.ExampleImpl" />
-        <item itemvalue="Application.lambdas.funcInterfaces.ExampleImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655719238712</updated>
       <workItem from="1655719239876" duration="3000" />
-      <workItem from="1655719314702" duration="11098000" />
+      <workItem from="1655719314702" duration="11696000" />
+      <workItem from="1655794576183" duration="6254000" />
     </task>
     <servers />
   </component>
