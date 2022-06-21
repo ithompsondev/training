@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad91b702-2407-46a2-be1d-c7055a50b02d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/HeroLocatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/HeroLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/manualDepInjection/HeroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/HeroLocatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/HeroLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/HeroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springprog/springIOC/resources/application-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DevTraining.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +147,7 @@
       <updated>1655719238712</updated>
       <workItem from="1655719239876" duration="3000" />
       <workItem from="1655719314702" duration="11696000" />
-      <workItem from="1655794576183" duration="6254000" />
+      <workItem from="1655794576183" duration="7160000" />
     </task>
     <servers />
   </component>
