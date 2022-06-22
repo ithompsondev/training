@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="datedBean" class="com.sandbox.beansandbox.factory.DatedBean">
+        <constructor-arg>
+            <bean id="localTime" class="java.time.LocalTime" factory-method="now"></bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="datedBeanFactory" class="com.sandbox.beansandbox.factory.DatedBeanFactory"></bean>
+    <bean id="newerDatedBean" class="com.sandbox.beansandbox.factory.DatedBean" factory-bean="datedBeanFactory">
+        <constructor-arg>
+            <bean class="java.time.LocalTime" factory-method="now"/>
+        </constructor-arg>
+    </bean>
+    <bean id="datedBeanRetailer" class="com.sandbox.beansandbox.factory.DatedBeanRetailer">
+        <constructor-arg ref="newerDatedBean"/>
+    </bean>
+</beans>

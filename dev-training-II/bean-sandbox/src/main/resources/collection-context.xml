@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collectionBean" class="com.sandbox.beansandbox.collections.Bean">
+        <property name="list">
+            <list>
+                <value>John</value>
+                <value>Mary</value>
+                <value>Sue</value>
+                <value>David</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>John</value>
+                <value>John</value>
+                <value>Mary</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="John" value="Soccer"/>
+                <entry key="Mary" value="Hockey"/>
+                <entry key="Sue" value="Handball"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="username">JOHN29</prop>
+                <prop key="password">johnyBoy29*</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="simpleBean" class="com.sandbox.beansandbox.collections.SimpleBean">
+        <property name="seedList">
+            <list>
+                <bean class="com.sandbox.beansandbox.collections.Seed">
+                    <constructor-arg name="name" value="Crab"/>
+                </bean>
+                <bean class="com.sandbox.beansandbox.collections.Seed">
+                    <constructor-arg name="name" value="Herb"/>
+                </bean>
+                <bean class="com.sandbox.beansandbox.collections.Seed">
+                    <constructor-arg name="name" value="Fish"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+</beans>
