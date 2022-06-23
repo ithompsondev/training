@@ -3,8 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="beanA" class="com.sandbox.beansandbox.autowire.Bean"/>
-    <bean id="beanB" class="com.sandbox.beansandbox.autowire.Bean"/>
+<!--    <bean id="beanA" class="com.sandbox.beansandbox.autowire.Bean"/>-->
+<!--    <bean id="beanB" class="com.sandbox.beansandbox.autowire.Bean"/>-->
 <!--    <bean id="shortBean" class="com.sandbox.beansandbox.autowire.ShortBean" autowire="byType"/>-->
-    <bean id="shortBean" class="com.sandbox.beansandbox.autowire.ShortBean" autowire="byName"/>
+<!--    <bean id="shortBean" class="com.sandbox.beansandbox.autowire.ShortBean" autowire="byName"/>-->
+
+    <bean id="babyBeanA" class="com.sandbox.beansandbox.autowire.Bean"/>
+    <bean id="babyBeanB" class="com.sandbox.beansandbox.autowire.ShortBean"/>
+    <bean id="constructedBean" class="com.sandbox.beansandbox.autowire.ConstructedBean" autowire="constructor"/>
 </beans>

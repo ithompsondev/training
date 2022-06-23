@@ -1,4 +1,4 @@
-package com.sandbox.beansandbox.autowire;
+package com.sandbox.beansandbox.autotate;
 
 public class Bean {
     public Bean() {

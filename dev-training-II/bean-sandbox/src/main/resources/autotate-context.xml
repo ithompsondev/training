@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean id="beanA" class="com.sandbox.beansandbox.autotate.Bean"/>
+    <bean id="shortBean" class="com.sandbox.beansandbox.autotate.ShortBean" autowire="byType"/>
+    <bean id="longBean" class="com.sandbox.beansandbox.autotate.LongBean" autowire="constructor"/>
+
+    <bean id="simpleBeanA" class="com.sandbox.beansandbox.autotate.SimpleBean">
+        <property name="name" value="simpleBeanA"/>
+    </bean>
+    <bean id="simpleBeanB" class="com.sandbox.beansandbox.autotate.SimpleBean">
+        <property name="name" value="simpleBeanB"/>
+    </bean>
+    <bean id="simpleBeanC" class="com.sandbox.beansandbox.autotate.SimpleBean">
+        <property name="name" value="simpleBeanC"/>
+    </bean>
+    <bean id="bareBean" class="com.sandbox.beansandbox.autotate.BareBean" autowire="byType"/>
+</beans>
