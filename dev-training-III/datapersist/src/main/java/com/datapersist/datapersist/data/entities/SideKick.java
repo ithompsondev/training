@@ -47,4 +47,9 @@ public class SideKick {
     }
 
     private Integer cityID;
+
+    @Override
+    public String toString() {
+        return name + " a.k.a " + alias + ", has the power of: " + power;
+    }
 }

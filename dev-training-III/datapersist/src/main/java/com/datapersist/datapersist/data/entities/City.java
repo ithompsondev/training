@@ -1,9 +1,13 @@
 package com.datapersist.datapersist.data.entities;
 
+import java.util.List;
+
 public class City {
     private Integer cityID;
     private String name;
     private Integer population;
+
+    private List<SideKick> uniqueAssistingPatrollers;
 
     public Integer getCityID() {
         return cityID;
@@ -27,6 +31,14 @@ public class City {
 
     public void setPopulation(Integer population) {
         this.population = population;
+    }
+
+    public List<SideKick> getUniqueAssistingPatrollers() {
+        return uniqueAssistingPatrollers;
+    }
+
+    public void setUniqueAssistingPatrollers(List<SideKick> uniqueAssistingPatrollers) {
+        this.uniqueAssistingPatrollers = uniqueAssistingPatrollers;
     }
 
     @Override

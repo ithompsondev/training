@@ -6,6 +6,7 @@ build/
 !**/src/test/**/build/
 
 !**/src/main/resources/dbconn.properties
+*.properties
 
 ### STS ###
 .apt_generated
