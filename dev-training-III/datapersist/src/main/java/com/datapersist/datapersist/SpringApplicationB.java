@@ -34,10 +34,19 @@ public class SpringApplicationB {
         System.out.println("Star City Patrollers");
         for (SideKick sideKick: starCityPatrollers.getUniqueAssistingPatrollers()) { System.out.println("\t" + sideKick); }
 
-        City goldCity = new City();
-        goldCity.setName("Gold City");
-        goldCity.setPopulation(23421);
-        cityRepository.create(goldCity);
+//        City goldCity = new City();
+//        goldCity.setName("Gold City");
+//        goldCity.setPopulation(23421);
+//        cityRepository.create(goldCity);
+
+        City starCityUpdate = new City();
+        starCityUpdate.setName("Star City");
+        starCityUpdate.setPopulation(19200);
+        cityRepository.update(starCityUpdate);
+
+        City goldCityDelete = new City();
+        goldCityDelete.setCityID(6);
+        cityRepository.delete(goldCityDelete);
     }
 }
 

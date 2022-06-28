@@ -28,6 +28,8 @@ public class CityRepositoryImpl implements CityRepository {
                                                                   "order by city.name asc";
     private static final String INSERT_NEW_CITY = "insert into city values(null,?,?)";
     private static final String UPDATE_CITY_POP = "update city set population = ? where name = ?";
+
+    private static final String DELETE_CITY = "delete from city where city_id = ?";
     private static class CityRowMapper implements RowMapper<City> {
 
         @Override
@@ -128,6 +130,6 @@ public class CityRepositoryImpl implements CityRepository {
 
         @Override
         public void delete(City entity) {
-
+            template.update(DELETE_CITY,new Object[] {entity.getCityID()});
         }
     }
